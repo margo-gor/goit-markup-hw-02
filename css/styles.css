@@ -206,6 +206,10 @@ color: #434455;
   background-color: #FFFFFF;
 }
 
+.team-item {
+  background-color: #FFFFFF;
+}
+
 /* Footer section */
 .footer {
   background: #2e2f42;
@@ -268,7 +272,7 @@ color: #434455;
 
 .portfolio-list-text {
   line-height: 1.5;
-  color: var(--text);
+  color: #434455;
 }
 
 .portfolio-list-title {
