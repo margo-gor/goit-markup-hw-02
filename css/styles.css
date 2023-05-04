@@ -43,7 +43,7 @@ img {
   display: block;
 }
 
-.conteiner {
+.container {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
@@ -64,7 +64,7 @@ body {
   padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
-.header-conteiner {
+.header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -74,7 +74,7 @@ body {
   align-items: center;
   gap: 40px;
 }
-.page-nav {
+.header-nav {
   display: flex;
   align-items: center;
 }
