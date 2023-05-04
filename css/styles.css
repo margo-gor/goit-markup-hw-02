@@ -222,7 +222,7 @@ color: #434455;
 }
 /* We doing */
 .section-title {
-  font-family: 'Roboto', sans-serif;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
@@ -233,6 +233,16 @@ text-transform: capitalize;
 color: #2E2F42;
 padding-top: 120px;
 padding-bottom: 120px;
+margin-bottom: 72px;
+
+}
+.work-section {
+  padding-bottom: 120px;
+}
+
+.work-list {
+    display: flex;
+    gap: 24px;
 }
 
 .portfolio-list-title {
