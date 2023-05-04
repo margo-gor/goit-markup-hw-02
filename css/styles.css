@@ -202,6 +202,32 @@ body {
 }
   
 /* Section 1 */
+.features-section {
+  padding: 120px;
+}
+
+.hiden-index {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  margin-bottom: 8px;
+} 
+
+.features-list {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 120px;
+ width: 1128px;
+ gap: 24px;
+}
+
 .features-title {
 font-family: 'Roboto', sans-serif;
 font-style: normal;
