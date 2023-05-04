@@ -120,11 +120,12 @@ body {
      font-weight: 800;
      font-size: 18px;
      line-height: 1.17;
-     display: flex;
      align-items: center;
      letter-spacing: 0.03em;
      text-transform: uppercase;
      color: #4D5AE5;
+     margin-bottom: 16px;
+     display: inline-block; 
  }
  .menu-link {
  font-family: 'Roboto', sans-serif;
@@ -279,6 +280,7 @@ color: #434455;
 /* Footer section */
 .footer {
   background: #2e2f42;
+  padding: 100px 0;
 }
 
 .info-footer {
@@ -289,6 +291,7 @@ color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #F4F4FD;
+  max-width: 264px;
   
   }
   .logo-studio-footer {
