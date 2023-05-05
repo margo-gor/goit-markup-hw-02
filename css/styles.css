@@ -462,3 +462,28 @@ text-align: center;
   margin: 0; 
 }
 
+.portfolio-main {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
+.content-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+}
+
+.portfolio-btn {
+  font-family: 'Roboto', sans-serif;
+  border-radius: 4px;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  display: inline-block;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  border: 1px solid transparent;
+}
