@@ -70,6 +70,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 24px; 
+  padding-bottom: 24px;
 }
 .menu {
   display: flex;
@@ -115,22 +117,8 @@ body {
   display: flex;
   gap: 40px;
   align-items: center;
-}
-
-.adress {
-  display: flex;
-  color: var(--primary-color);
-  text-decoration-line: none;
-}
-.adress {
-gap: 40px;
-list-style: none;
-
-}
-.adress .link:active,
-.adress .link:hover,
-.adress .link:focus {
-color: #404BBF;
+  padding-top: 24px; 
+  padding-bottom: 24px;
 }
 
  .logo-studio {
