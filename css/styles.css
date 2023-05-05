@@ -368,6 +368,8 @@ text-align: center;
 
 .team-list {
   background-color: #FFFFFF;
+  display: flex;
+  gap: 24px;
 }
 
 .team-item {
