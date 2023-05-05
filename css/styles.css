@@ -314,6 +314,10 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
+.team-section {
+  padding: 120px 0 120px 0;
+}
+
 .team-worker {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -323,6 +327,15 @@ color: #434455;
   text-align: center;
   letter-spacing: 0.02em;
   color: #2E2F42;
+  text-align: center;
+  margin-bottom: 8px;
+  margin-top: 0;
+}
+
+.team-item  {
+  background-color: #FFFFFF;
+  text-align: center;
+  width: calc((100% - 72px) / 4);
 }
 
 .team-profession {
