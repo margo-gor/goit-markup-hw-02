@@ -214,7 +214,13 @@ body {
   
 /* Section 1 */
 .features-section {
-  padding: 120px;
+  margin-top: 0;
+  padding: 120px 0 120px 0;
+}
+
+.title {
+  margin-bottom: 8px;
+  margin-top: 0;
 }
 
 .hiden-index {
@@ -257,6 +263,11 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
+
+.feature-item {
+  width: calc((100% - 72px) / 4);
+}
+ 
 /* We doing */
 .section-title {
 font-family: 'Roboto', sans-serif;
