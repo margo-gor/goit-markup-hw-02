@@ -5,6 +5,8 @@
 /* нет маркеров у списков */
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
  /* нет подчеркиваний ссылок */
@@ -71,8 +73,8 @@ body {
 }
 .menu {
   display: flex;
-  align-items: center;
   gap: 40px;
+  align-items: center;
 }
 .header-nav {
   display: flex;
@@ -91,14 +93,16 @@ body {
  }
 
  .contact-info {
- font-family: 'Roboto', sans-serif;
- font-style: normal;
- font-weight: 400;
- font-size: 16px;
- line-height: 24px;
- letter-spacing: 0.02em;
- color: #434455;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+  padding: 24px 0 24px 0;
  }
+
  .contact-info:hover,
  .contact-info:focus {
      color: #404BBF
@@ -109,6 +113,23 @@ body {
   gap: 40px;
   align-items: center;
 }
+
+.adress {
+  display: flex;
+  color: var(--primary-color);
+  text-decoration-line: none;
+}
+.adress {
+gap: 40px;
+list-style: none;
+
+}
+.adress .link:active,
+.adress .link:hover,
+.adress .link:focus {
+color: #404BBF;
+}
+
  .logo-studio {
  font-family: 'Raleway', sans-serif;
  font-weight: 800;
