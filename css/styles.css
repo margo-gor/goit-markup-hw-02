@@ -487,3 +487,11 @@ text-align: center;
 .portfolio-btn:focus {
   border: 1px solid transparent;
 }
+
+.filter-list {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 72px;
+  }
